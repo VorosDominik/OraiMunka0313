@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+main{
+    margin: auto;
+    padding: 0;
+}
+.sor{
+    display: grid;
+    grid-template-columns: 1fr 4fr 5fr;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+}
+input{
+    width: 25%; 
+}
+input[type=submit]{
+    width: 75px;
+    
+}
